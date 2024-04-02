@@ -1,0 +1,81 @@
+:root
+{
+    --color-gray: #d3d2d2;
+    --color-lightblack: #494444;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    font-family: "Inter", sans-serif;
+}
+
+header
+{
+    background-color: var(--color-gray);
+    padding-bottom: 3rem;
+}
+
+header nav li
+{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 2rem;
+}
+
+header nav li a
+{
+    text-decoration: none;
+    color: black;
+    padding: 20px 20px;
+    transition: .5s;
+    font-weight: normal;
+}
+
+header nav li a:hover
+{
+    border: 1px solid white;
+    background-color: var(--color-lightblack);
+    color: white;
+    box-shadow: 0px 0px 5px white;
+}
+
+.bannerHeader
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.bannerHeader h1
+{
+    margin: 3rem 0;
+    font-size: 2.9rem;
+    font-weight:normal
+}
+
+.bannerHeader button
+{
+    padding: 15px 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    background: transparent;
+    font-weight: bold;
+    transition: .5s;
+    margin: 1rem 0;
+    border: 1px solid black;
+}
+
+.bannerHeader button:hover
+{
+    background-color: var(--color-lightblack);
+    color: white;
+    box-shadow: 0px 0px 5px white;
+    border: 1px solid white;
+}
