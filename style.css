@@ -79,3 +79,36 @@ header nav li a:hover
     box-shadow: 0px 0px 5px white;
     border: 1px solid white;
 }
+
+main
+{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.model1
+{
+    padding: 4rem 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 6rem;
+}
+
+.Title
+{
+    font-size: 6rem;
+    font-style: italic;
+    font-weight: normal;
+    /* margin-right: 6rem; */
+}
+
+.Summary h3
+{
+    margin-bottom: 1rem;
+}
+
+#personagens
+{
+    background-color: var(--color-lightblack);
+}
